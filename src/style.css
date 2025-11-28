@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#faf9f8] text-stone-800;
+}
+
+/* 卡片容器 */
+.card {
+  @apply bg-white rounded-2xl shadow-md p-5;
+}
+
+/* 標題 */
+h1, h2, h3 {
+  @apply font-semibold text-stone-700;
+}
+
+/* 鮮明重點色（例如「複習 0」的橘色） */
+.text-accent {
+  @apply text-amber-500;
+}
+
+/* 小按鈕的風格 */
+.btn {
+  @apply px-3 py-1.5 rounded-lg bg-stone-100 hover:bg-stone-200 transition text-stone-700 text-sm;
+}
+
+/* 深色按鈕（例如「複習全部」） */
+.btn-dark {
+  @apply px-4 py-2 rounded-lg bg-stone-700 text-white hover:bg-stone-800 transition;
+}
